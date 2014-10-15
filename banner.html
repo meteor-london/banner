@@ -1,0 +1,46 @@
+<head>
+  <title>Meteor banner factory</title>
+   <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Titillium+Web:400,600,600italic' rel='stylesheet' type='text/css'> -->
+</head>
+<body>
+  <canvas id="banner-canvas" width="960" height="150"></canvas>
+  <header class="logo dark">
+    <a class="meteor" href="http://www.meeteorlondon.com">Meteor</a>
+    <a class="london" href="http://www.meeteorlondon.com">London</a>
+  </header>
+  {{> bannerEditor}}
+
+  <p>Nice up your Meetup banner. Just enter your custom strapline.</p>
+
+  <p>See the <a href="http://www.meetup.com/Meteor-London/" target="_blank">Meteor London</a> meetup page to see how it looks in situ.</p>
+
+  <h2>Square Logos</h2>
+  <img src="/img/180x180/meteor-light.png"/>
+  <img src="/img/180x180/meteor-dark.png"/>
+  <img src="/img/180x180/meteor-text-light.png"/>
+  <img src="/img/180x180/meteor-text-dark.png"/>
+
+  {{> recent}}
+</body>
+
+<template name="bannerEditor">
+  <h1>Create your meet-up banner</h1>
+  <img src="{{dataUri}}" width="960" height="150">
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control strapline-input" placeholder="Your strapline here" autofocus>
+    </div>
+    <div>
+      <a class="btn-meteor" href="{{dataUri}}" download="{{filename}}">Save</a>
+    </div>
+  </form>
+</template>
+
+<template name="recent">
+  <h2>Recent banners</h2>
+  {{#each banners}}
+    <div class="banner" title="Meteor {{strapline}}">
+      <img src="{{dataUri strapline}}" alt="">
+    </div>
+  {{/each}}
+</template>

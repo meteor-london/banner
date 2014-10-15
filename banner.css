@@ -1,0 +1,107 @@
+body{
+  text-align:center;
+  font:400 28px/1.2 Roboto, sans-serif;
+  background: #00CBE8 url("/img/header-bg.jpg") no-repeat center top;
+  background-size:100% auto;
+}
+#banner-canvas {
+  display:none;
+  letter-spacing: 15px;
+  margin:0 auto;
+}
+input{
+  text-align:center;
+  font:400 28px/1.2 Roboto, sans-serif;
+  border:solid 1px #eee;
+  border-radius: 1px;
+  background:rgba(250,250,250, 0.8);
+  /* box-shadow:1px 1px 1px rgba(0,0,0,0.2); */
+  margin: 50px auto;
+  display:block;
+  padding: 4px 10px 4px 35px;
+  letter-spacing:15px;
+  width:913px;
+  max-width: 100%;
+}
+input:focus{
+  background:rgba(255,255,255, 0.9);
+  outline:none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+a{
+  color:#fff;
+}
+a:hover{
+  color:#fff;
+}
+.logo{
+  display:block;
+  width:248px;
+  margin:58px auto;
+}
+.logo .meteor{
+  display:block;
+  height:58px;
+  margin-bottom:11px;
+  background: url("/img/meteor-logo-white.png") no-repeat center center;
+  color:transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+.logo .london{
+  display:block;
+  padding-left:20px;
+  font-family:'Roboto', sans-serif;
+  font-size:28px;
+  letter-spacing:15px;
+  text-transform:uppercase;
+  color:#3C5471;
+}
+.logo.dark .meteor{
+  background-image:url("/img/meteor-logo-black.png");
+}
+.logo.dark .london{
+  color:#151515;
+}
+.logo a{
+  text-decoration:none;
+}
+
+.btn-meteor{
+  display:block;
+  width:100%;
+  max-width:300px;
+  margin: 43px auto;
+  background:transparent;
+  border:solid white 5px;
+  border-radius: 5px;
+  font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  font-size: 32px;
+  line-height:70px;
+  color:white;
+  text-transform:uppercase;
+  text-decoration:none;
+  -webkit-transition:color 100ms, background-color 100ms;
+  -moz-transition:color 100ms, background-color 100ms;
+  -o-transition:color 100ms, background-color 100ms;
+  transition: color 100ms, background-color 100ms;
+}
+.btn-meteor small{
+  display:block;
+  font-weight:200;
+  font-size:23px;
+  margin-top:-1.6em;
+}
+.btn-meteor:hover{
+  background:white;
+  color:#102136;
+  text-decoration:none;
+}
