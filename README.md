@@ -9,6 +9,8 @@ Come say hi on gitter if you like it, or shout if you find issues:
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/meteor-london/banner?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+---
+
 http://banner.meteor.com
 
 ![screen shot 2014-10-16 at 00 42 12](https://cloud.githubusercontent.com/assets/58871/4655526/fe2a1824-54c4-11e4-96d2-64c794e571e6.png)
