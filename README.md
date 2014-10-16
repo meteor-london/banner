@@ -1,9 +1,13 @@
 # Meteor meet-up banner maker
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/meteor-london/banner?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 An automagic banner factory for you Meteor meet-up.
 
 See http://www.meetup.com/Meteor-London/ to see it in situ.
+
+Come say hi on gitter if you like it, or shout if you find issues:
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/meteor-london/banner?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 http://banner.meteor.com
 
