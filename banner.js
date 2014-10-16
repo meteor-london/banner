@@ -115,8 +115,8 @@ if (Meteor.isClient) {
     ctx.textBaseline = 'top'
     ctx.textAlign = 'center'
     ctx.fillStyle = '#3C5471'
-    ctx.font = '400 28px Roboto, sans-serif'
-    ctx.fillText(strapline, (canvas.width / 2) + 11, 89);
+    ctx.font = '400 30px Roboto, sans-serif'
+    ctx.fillText(strapline, (canvas.width / 2) + 8, 89);
 
     // console.log('drawBanner', strapline)
     return canvas.toDataURL('image/png')
